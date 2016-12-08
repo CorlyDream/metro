@@ -5,9 +5,9 @@ $ sudo apt-get update
 $ sudo apt-get install oracle-java8-installer
 
 ### 配置环境变量 /etc/profile 或者 ～/.bashrc
-export JAVA_HOME=/usr/lib/jvm/jdk1.7.0_21  
-export CLASSPATH=.:$JAVA_HOME/lib:$JAVA_HOME/jre/lib:$CLASSPATH  
-export PATH=$JAVA_HOME/bin:$JAVA_HOME/jre/bin:$PATH  
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+export CLASSPATH=.:$JAVA_HOME/lib:$JAVA_HOME/jre/lib:$CLASSPATH
+export PATH=$JAVA_HOME/bin:$JAVA_HOME/jre/bin:$PATH
 
 ## 依赖软件
 
