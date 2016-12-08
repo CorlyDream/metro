@@ -60,3 +60,8 @@ Start NameNode daemon and DataNode daemon:
 Browse the web interface for the NameNode; by default it is available at:
 
   NameNode - http://localhost:50070/
+  
+  
+## 运行示例
+
+ bin/hadoop jar /root/hadoop-learn.jar corly.hadoop.test.WordCount /user/input /user/output/worldcount
